@@ -52,6 +52,7 @@ namespace Ceylon
                 insertComand.Parameters.AddWithValue("Confirm_Password", Confirm_Password);
                 MessageBox.Show("Registered Successfully", "information", MessageBoxButtons.OKCancel);
                 lblDisplay.Text = "Registered Successfully";
+                UserLogName.Email = txtEmail.Text;
                 new Login().Show();
                 this.Hide();
             }
@@ -63,7 +64,7 @@ namespace Ceylon
 
         private void guna2CircleButton1_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         

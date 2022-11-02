@@ -33,7 +33,7 @@ namespace Ceylon
 
         private void guna2CircleButton1_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void guna2Button5_Click(object sender, EventArgs e)
@@ -56,7 +56,7 @@ namespace Ceylon
             {
 
                 obj2.closeConn();
-
+                UserLogName.UserName = txtUserName.Text;    
                 this.Hide();
                 ProfilePage welcome = new ProfilePage();
                 welcome.Show();
@@ -67,6 +67,11 @@ namespace Ceylon
                 txtUserName.Clear();
                 txtPwd.Clear();
             }
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

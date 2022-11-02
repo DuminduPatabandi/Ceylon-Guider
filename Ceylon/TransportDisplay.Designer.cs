@@ -28,11 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.guna2CircleButton3 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2CircleButton2 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
+            this.lblTPhone4 = new System.Windows.Forms.Label();
+            this.lblVehicle4 = new System.Windows.Forms.Label();
+            this.lblLicenseNo4 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
             this.lblFType4 = new System.Windows.Forms.Label();
             this.lblFPrice4 = new System.Windows.Forms.Label();
             this.lblFPhone4 = new System.Windows.Forms.Label();
@@ -42,6 +50,13 @@
             this.lblPhone4 = new System.Windows.Forms.Label();
             this.lblHotel4 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.lblTPhone3 = new System.Windows.Forms.Label();
+            this.lblVehicle3 = new System.Windows.Forms.Label();
+            this.lblLicenseNo3 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
             this.lblFType3 = new System.Windows.Forms.Label();
             this.lblFPrice3 = new System.Windows.Forms.Label();
             this.lblFPhonee3 = new System.Windows.Forms.Label();
@@ -51,6 +66,13 @@
             this.lblPhone3 = new System.Windows.Forms.Label();
             this.lblHotel3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.lblTPhone2 = new System.Windows.Forms.Label();
+            this.lblVehicle2 = new System.Windows.Forms.Label();
+            this.lblLicenseNo2 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.lblFPhone3 = new System.Windows.Forms.Label();
             this.lblFPrice2 = new System.Windows.Forms.Label();
             this.lblType2 = new System.Windows.Forms.Label();
@@ -60,6 +82,7 @@
             this.lblPhone2 = new System.Windows.Forms.Label();
             this.lblHotel2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnHireMe1 = new Guna.UI2.WinForms.Guna2Button();
             this.lblTPhone1 = new System.Windows.Forms.Label();
             this.lblVehicle1 = new System.Windows.Forms.Label();
             this.lblLicenseNo1 = new System.Windows.Forms.Label();
@@ -77,28 +100,7 @@
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.btnHireMe1 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.lblTPhone2 = new System.Windows.Forms.Label();
-            this.lblVehicle2 = new System.Windows.Forms.Label();
-            this.lblLicenseNo2 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            this.lblTPhone3 = new System.Windows.Forms.Label();
-            this.lblVehicle3 = new System.Windows.Forms.Label();
-            this.lblLicenseNo3 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
-            this.lblTPhone4 = new System.Windows.Forms.Label();
-            this.lblVehicle4 = new System.Windows.Forms.Label();
-            this.lblLicenseNo4 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
+            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -118,7 +120,7 @@
             this.guna2CircleButton3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2CircleButton3.ForeColor = System.Drawing.Color.White;
             this.guna2CircleButton3.ImageSize = new System.Drawing.Size(12, 12);
-            this.guna2CircleButton3.Location = new System.Drawing.Point(1001, 13);
+            this.guna2CircleButton3.Location = new System.Drawing.Point(1036, 20);
             this.guna2CircleButton3.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CircleButton3.Name = "guna2CircleButton3";
             this.guna2CircleButton3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
@@ -136,7 +138,7 @@
             this.guna2CircleButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2CircleButton2.ForeColor = System.Drawing.Color.White;
             this.guna2CircleButton2.ImageSize = new System.Drawing.Size(12, 12);
-            this.guna2CircleButton2.Location = new System.Drawing.Point(1036, 13);
+            this.guna2CircleButton2.Location = new System.Drawing.Point(1071, 20);
             this.guna2CircleButton2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CircleButton2.Name = "guna2CircleButton2";
             this.guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
@@ -154,7 +156,7 @@
             this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2CircleButton1.ForeColor = System.Drawing.Color.White;
             this.guna2CircleButton1.ImageSize = new System.Drawing.Size(12, 12);
-            this.guna2CircleButton1.Location = new System.Drawing.Point(1080, 13);
+            this.guna2CircleButton1.Location = new System.Drawing.Point(1115, 20);
             this.guna2CircleButton1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CircleButton1.Name = "guna2CircleButton1";
             this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
@@ -201,6 +203,78 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(487, 220);
             this.panel5.TabIndex = 8;
+            // 
+            // guna2Button4
+            // 
+            this.guna2Button4.AutoRoundedCorners = true;
+            this.guna2Button4.BorderRadius = 21;
+            this.guna2Button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(149)))), ((int)(((byte)(1)))));
+            this.guna2Button4.Font = new System.Drawing.Font("Covered By Your Grace", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button4.ForeColor = System.Drawing.Color.White;
+            this.guna2Button4.Location = new System.Drawing.Point(260, 158);
+            this.guna2Button4.Name = "guna2Button4";
+            this.guna2Button4.Size = new System.Drawing.Size(180, 45);
+            this.guna2Button4.TabIndex = 22;
+            this.guna2Button4.Text = "Pick Me";
+            // 
+            // lblTPhone4
+            // 
+            this.lblTPhone4.AutoSize = true;
+            this.lblTPhone4.Location = new System.Drawing.Point(233, 76);
+            this.lblTPhone4.Name = "lblTPhone4";
+            this.lblTPhone4.Size = new System.Drawing.Size(0, 16);
+            this.lblTPhone4.TabIndex = 21;
+            // 
+            // lblVehicle4
+            // 
+            this.lblVehicle4.AutoSize = true;
+            this.lblVehicle4.Location = new System.Drawing.Point(233, 124);
+            this.lblVehicle4.Name = "lblVehicle4";
+            this.lblVehicle4.Size = new System.Drawing.Size(0, 16);
+            this.lblVehicle4.TabIndex = 20;
+            // 
+            // lblLicenseNo4
+            // 
+            this.lblLicenseNo4.AutoSize = true;
+            this.lblLicenseNo4.Location = new System.Drawing.Point(231, 25);
+            this.lblLicenseNo4.Name = "lblLicenseNo4";
+            this.lblLicenseNo4.Size = new System.Drawing.Size(0, 16);
+            this.lblLicenseNo4.TabIndex = 19;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(54, 70);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(131, 24);
+            this.label19.TabIndex = 18;
+            this.label19.Text = "Contact Info";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(54, 120);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(130, 24);
+            this.label20.TabIndex = 16;
+            this.label20.Text = "Vehicle Type";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(46, 18);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(175, 24);
+            this.label21.TabIndex = 17;
+            this.label21.Text = "License Plate No ";
             // 
             // lblFType4
             // 
@@ -293,6 +367,78 @@
             this.panel4.Size = new System.Drawing.Size(487, 220);
             this.panel4.TabIndex = 7;
             // 
+            // guna2Button2
+            // 
+            this.guna2Button2.AutoRoundedCorners = true;
+            this.guna2Button2.BorderRadius = 21;
+            this.guna2Button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(149)))), ((int)(((byte)(1)))));
+            this.guna2Button2.Font = new System.Drawing.Font("Covered By Your Grace", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button2.ForeColor = System.Drawing.Color.White;
+            this.guna2Button2.Location = new System.Drawing.Point(260, 158);
+            this.guna2Button2.Name = "guna2Button2";
+            this.guna2Button2.Size = new System.Drawing.Size(180, 45);
+            this.guna2Button2.TabIndex = 22;
+            this.guna2Button2.Text = "Pick Me";
+            // 
+            // lblTPhone3
+            // 
+            this.lblTPhone3.AutoSize = true;
+            this.lblTPhone3.Location = new System.Drawing.Point(233, 76);
+            this.lblTPhone3.Name = "lblTPhone3";
+            this.lblTPhone3.Size = new System.Drawing.Size(0, 16);
+            this.lblTPhone3.TabIndex = 21;
+            // 
+            // lblVehicle3
+            // 
+            this.lblVehicle3.AutoSize = true;
+            this.lblVehicle3.Location = new System.Drawing.Point(233, 124);
+            this.lblVehicle3.Name = "lblVehicle3";
+            this.lblVehicle3.Size = new System.Drawing.Size(0, 16);
+            this.lblVehicle3.TabIndex = 20;
+            // 
+            // lblLicenseNo3
+            // 
+            this.lblLicenseNo3.AutoSize = true;
+            this.lblLicenseNo3.Location = new System.Drawing.Point(231, 25);
+            this.lblLicenseNo3.Name = "lblLicenseNo3";
+            this.lblLicenseNo3.Size = new System.Drawing.Size(0, 16);
+            this.lblLicenseNo3.TabIndex = 19;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(54, 70);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(131, 24);
+            this.label13.TabIndex = 18;
+            this.label13.Text = "Contact Info";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(54, 120);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(130, 24);
+            this.label14.TabIndex = 16;
+            this.label14.Text = "Vehicle Type";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(46, 18);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(175, 24);
+            this.label15.TabIndex = 17;
+            this.label15.Text = "License Plate No ";
+            // 
             // lblFType3
             // 
             this.lblFType3.AutoSize = true;
@@ -384,6 +530,78 @@
             this.panel3.Size = new System.Drawing.Size(487, 220);
             this.panel3.TabIndex = 6;
             // 
+            // guna2Button1
+            // 
+            this.guna2Button1.AutoRoundedCorners = true;
+            this.guna2Button1.BorderRadius = 21;
+            this.guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(149)))), ((int)(((byte)(1)))));
+            this.guna2Button1.Font = new System.Drawing.Font("Covered By Your Grace", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.Location = new System.Drawing.Point(260, 158);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(180, 45);
+            this.guna2Button1.TabIndex = 22;
+            this.guna2Button1.Text = "Pick Me";
+            // 
+            // lblTPhone2
+            // 
+            this.lblTPhone2.AutoSize = true;
+            this.lblTPhone2.Location = new System.Drawing.Point(233, 76);
+            this.lblTPhone2.Name = "lblTPhone2";
+            this.lblTPhone2.Size = new System.Drawing.Size(0, 16);
+            this.lblTPhone2.TabIndex = 21;
+            // 
+            // lblVehicle2
+            // 
+            this.lblVehicle2.AutoSize = true;
+            this.lblVehicle2.Location = new System.Drawing.Point(233, 124);
+            this.lblVehicle2.Name = "lblVehicle2";
+            this.lblVehicle2.Size = new System.Drawing.Size(0, 16);
+            this.lblVehicle2.TabIndex = 20;
+            // 
+            // lblLicenseNo2
+            // 
+            this.lblLicenseNo2.AutoSize = true;
+            this.lblLicenseNo2.Location = new System.Drawing.Point(231, 25);
+            this.lblLicenseNo2.Name = "lblLicenseNo2";
+            this.lblLicenseNo2.Size = new System.Drawing.Size(0, 16);
+            this.lblLicenseNo2.TabIndex = 19;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(54, 70);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(131, 24);
+            this.label7.TabIndex = 18;
+            this.label7.Text = "Contact Info";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(54, 120);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(130, 24);
+            this.label8.TabIndex = 16;
+            this.label8.Text = "Vehicle Type";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(46, 18);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(175, 24);
+            this.label9.TabIndex = 17;
+            this.label9.Text = "License Plate No ";
+            // 
             // lblFPhone3
             // 
             this.lblFPhone3.AutoSize = true;
@@ -474,6 +692,24 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(487, 220);
             this.panel2.TabIndex = 5;
+            // 
+            // btnHireMe1
+            // 
+            this.btnHireMe1.AutoRoundedCorners = true;
+            this.btnHireMe1.BorderRadius = 21;
+            this.btnHireMe1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnHireMe1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnHireMe1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnHireMe1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnHireMe1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnHireMe1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(149)))), ((int)(((byte)(1)))));
+            this.btnHireMe1.Font = new System.Drawing.Font("Covered By Your Grace", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHireMe1.ForeColor = System.Drawing.Color.White;
+            this.btnHireMe1.Location = new System.Drawing.Point(254, 161);
+            this.btnHireMe1.Name = "btnHireMe1";
+            this.btnHireMe1.Size = new System.Drawing.Size(180, 45);
+            this.btnHireMe1.TabIndex = 15;
+            this.btnHireMe1.Text = "Pick Me";
             // 
             // lblTPhone1
             // 
@@ -640,7 +876,7 @@
             this.guna2PictureBox4.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox4.Image = global::Ceylon.Properties.Resources.ceylon;
             this.guna2PictureBox4.ImageRotate = 0F;
-            this.guna2PictureBox4.Location = new System.Drawing.Point(472, 13);
+            this.guna2PictureBox4.Location = new System.Drawing.Point(499, 20);
             this.guna2PictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.guna2PictureBox4.Name = "guna2PictureBox4";
             this.guna2PictureBox4.Size = new System.Drawing.Size(208, 25);
@@ -649,239 +885,10 @@
             this.guna2PictureBox4.TabStop = false;
             this.guna2PictureBox4.UseTransparentBackground = true;
             // 
-            // btnHireMe1
+            // guna2Elipse1
             // 
-            this.btnHireMe1.AutoRoundedCorners = true;
-            this.btnHireMe1.BorderRadius = 21;
-            this.btnHireMe1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnHireMe1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnHireMe1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnHireMe1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnHireMe1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnHireMe1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(149)))), ((int)(((byte)(1)))));
-            this.btnHireMe1.Font = new System.Drawing.Font("Covered By Your Grace", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHireMe1.ForeColor = System.Drawing.Color.White;
-            this.btnHireMe1.Location = new System.Drawing.Point(254, 161);
-            this.btnHireMe1.Name = "btnHireMe1";
-            this.btnHireMe1.Size = new System.Drawing.Size(180, 45);
-            this.btnHireMe1.TabIndex = 15;
-            this.btnHireMe1.Text = "Pick Me";
-            // 
-            // guna2Button1
-            // 
-            this.guna2Button1.AutoRoundedCorners = true;
-            this.guna2Button1.BorderRadius = 21;
-            this.guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(149)))), ((int)(((byte)(1)))));
-            this.guna2Button1.Font = new System.Drawing.Font("Covered By Your Grace", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(260, 158);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(180, 45);
-            this.guna2Button1.TabIndex = 22;
-            this.guna2Button1.Text = "Pick Me";
-            // 
-            // lblTPhone2
-            // 
-            this.lblTPhone2.AutoSize = true;
-            this.lblTPhone2.Location = new System.Drawing.Point(233, 76);
-            this.lblTPhone2.Name = "lblTPhone2";
-            this.lblTPhone2.Size = new System.Drawing.Size(0, 16);
-            this.lblTPhone2.TabIndex = 21;
-            // 
-            // lblVehicle2
-            // 
-            this.lblVehicle2.AutoSize = true;
-            this.lblVehicle2.Location = new System.Drawing.Point(233, 124);
-            this.lblVehicle2.Name = "lblVehicle2";
-            this.lblVehicle2.Size = new System.Drawing.Size(0, 16);
-            this.lblVehicle2.TabIndex = 20;
-            // 
-            // lblLicenseNo2
-            // 
-            this.lblLicenseNo2.AutoSize = true;
-            this.lblLicenseNo2.Location = new System.Drawing.Point(231, 25);
-            this.lblLicenseNo2.Name = "lblLicenseNo2";
-            this.lblLicenseNo2.Size = new System.Drawing.Size(0, 16);
-            this.lblLicenseNo2.TabIndex = 19;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(54, 70);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(131, 24);
-            this.label7.TabIndex = 18;
-            this.label7.Text = "Contact Info";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(54, 120);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(130, 24);
-            this.label8.TabIndex = 16;
-            this.label8.Text = "Vehicle Type";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(46, 18);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(175, 24);
-            this.label9.TabIndex = 17;
-            this.label9.Text = "License Plate No ";
-            // 
-            // guna2Button2
-            // 
-            this.guna2Button2.AutoRoundedCorners = true;
-            this.guna2Button2.BorderRadius = 21;
-            this.guna2Button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(149)))), ((int)(((byte)(1)))));
-            this.guna2Button2.Font = new System.Drawing.Font("Covered By Your Grace", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.Location = new System.Drawing.Point(260, 158);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(180, 45);
-            this.guna2Button2.TabIndex = 22;
-            this.guna2Button2.Text = "Pick Me";
-            // 
-            // lblTPhone3
-            // 
-            this.lblTPhone3.AutoSize = true;
-            this.lblTPhone3.Location = new System.Drawing.Point(233, 76);
-            this.lblTPhone3.Name = "lblTPhone3";
-            this.lblTPhone3.Size = new System.Drawing.Size(0, 16);
-            this.lblTPhone3.TabIndex = 21;
-            // 
-            // lblVehicle3
-            // 
-            this.lblVehicle3.AutoSize = true;
-            this.lblVehicle3.Location = new System.Drawing.Point(233, 124);
-            this.lblVehicle3.Name = "lblVehicle3";
-            this.lblVehicle3.Size = new System.Drawing.Size(0, 16);
-            this.lblVehicle3.TabIndex = 20;
-            // 
-            // lblLicenseNo3
-            // 
-            this.lblLicenseNo3.AutoSize = true;
-            this.lblLicenseNo3.Location = new System.Drawing.Point(231, 25);
-            this.lblLicenseNo3.Name = "lblLicenseNo3";
-            this.lblLicenseNo3.Size = new System.Drawing.Size(0, 16);
-            this.lblLicenseNo3.TabIndex = 19;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(54, 70);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(131, 24);
-            this.label13.TabIndex = 18;
-            this.label13.Text = "Contact Info";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(54, 120);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(130, 24);
-            this.label14.TabIndex = 16;
-            this.label14.Text = "Vehicle Type";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(46, 18);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(175, 24);
-            this.label15.TabIndex = 17;
-            this.label15.Text = "License Plate No ";
-            // 
-            // guna2Button4
-            // 
-            this.guna2Button4.AutoRoundedCorners = true;
-            this.guna2Button4.BorderRadius = 21;
-            this.guna2Button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(149)))), ((int)(((byte)(1)))));
-            this.guna2Button4.Font = new System.Drawing.Font("Covered By Your Grace", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button4.ForeColor = System.Drawing.Color.White;
-            this.guna2Button4.Location = new System.Drawing.Point(260, 158);
-            this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.Size = new System.Drawing.Size(180, 45);
-            this.guna2Button4.TabIndex = 22;
-            this.guna2Button4.Text = "Pick Me";
-            // 
-            // lblTPhone4
-            // 
-            this.lblTPhone4.AutoSize = true;
-            this.lblTPhone4.Location = new System.Drawing.Point(233, 76);
-            this.lblTPhone4.Name = "lblTPhone4";
-            this.lblTPhone4.Size = new System.Drawing.Size(0, 16);
-            this.lblTPhone4.TabIndex = 21;
-            // 
-            // lblVehicle4
-            // 
-            this.lblVehicle4.AutoSize = true;
-            this.lblVehicle4.Location = new System.Drawing.Point(233, 124);
-            this.lblVehicle4.Name = "lblVehicle4";
-            this.lblVehicle4.Size = new System.Drawing.Size(0, 16);
-            this.lblVehicle4.TabIndex = 20;
-            // 
-            // lblLicenseNo4
-            // 
-            this.lblLicenseNo4.AutoSize = true;
-            this.lblLicenseNo4.Location = new System.Drawing.Point(231, 25);
-            this.lblLicenseNo4.Name = "lblLicenseNo4";
-            this.lblLicenseNo4.Size = new System.Drawing.Size(0, 16);
-            this.lblLicenseNo4.TabIndex = 19;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(54, 70);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(131, 24);
-            this.label19.TabIndex = 18;
-            this.label19.Text = "Contact Info";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(54, 120);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(130, 24);
-            this.label20.TabIndex = 16;
-            this.label20.Text = "Vehicle Type";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(46, 18);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(175, 24);
-            this.label21.TabIndex = 17;
-            this.label21.Text = "License Plate No ";
+            this.guna2Elipse1.BorderRadius = 20;
+            this.guna2Elipse1.TargetControl = this;
             // 
             // TransportDisplay
             // 
@@ -896,6 +903,7 @@
             this.Controls.Add(this.guna2PictureBox4);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "TransportDisplay";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TransportDisplay";
             this.panel1.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
@@ -985,5 +993,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private Guna.UI2.WinForms.Guna2Button btnHireMe1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
     }
 }

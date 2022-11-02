@@ -9,12 +9,18 @@ namespace Ceylon
     internal class UserLogName
     {
         static string userName;
+        static string email;
 
         public static string UserName
         {
             get { return userName; }
-            set { userName = value; }   
+            set { userName = value; } 
 
+        }
+        public static string Email
+        {
+            get { return email; }
+            set { email = value; }
         }
     }
 }

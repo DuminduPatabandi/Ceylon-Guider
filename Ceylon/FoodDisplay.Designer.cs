@@ -28,26 +28,55 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.lblFType4 = new System.Windows.Forms.Label();
+            this.lblFPrice4 = new System.Windows.Forms.Label();
+            this.lblFPhone4 = new System.Windows.Forms.Label();
+            this.lblRName4 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
             this.btnOrderMe4 = new Guna.UI2.WinForms.Guna2Button();
             this.lblPrice4 = new System.Windows.Forms.Label();
             this.lblRoomType4 = new System.Windows.Forms.Label();
             this.lblPhone4 = new System.Windows.Forms.Label();
             this.lblHotel4 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.lblFType3 = new System.Windows.Forms.Label();
+            this.lblFPrice3 = new System.Windows.Forms.Label();
+            this.lblFPhonee3 = new System.Windows.Forms.Label();
+            this.lblRName3 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
             this.btnOrderMe3 = new Guna.UI2.WinForms.Guna2Button();
             this.lblPrice3 = new System.Windows.Forms.Label();
             this.lblRoomType3 = new System.Windows.Forms.Label();
             this.lblPhone3 = new System.Windows.Forms.Label();
             this.lblHotel3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.lblFPhone3 = new System.Windows.Forms.Label();
+            this.lblFPrice2 = new System.Windows.Forms.Label();
+            this.lblType2 = new System.Windows.Forms.Label();
+            this.lblRName2 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.btnOrderMe2 = new Guna.UI2.WinForms.Guna2Button();
             this.lblPrice2 = new System.Windows.Forms.Label();
             this.lblRoomType2 = new System.Windows.Forms.Label();
             this.lblPhone2 = new System.Windows.Forms.Label();
             this.lblHotel2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.lblType1 = new System.Windows.Forms.Label();
+            this.lblFPhone1 = new System.Windows.Forms.Label();
+            this.lblFPrice1 = new System.Windows.Forms.Label();
+            this.lblRName1 = new System.Windows.Forms.Label();
             this.btnOrderMe = new Guna.UI2.WinForms.Guna2Button();
             this.lblPrice1 = new System.Windows.Forms.Label();
             this.lblRoomType1 = new System.Windows.Forms.Label();
@@ -58,46 +87,20 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2CircleButton3 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2CircleButton2 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.lblRName1 = new System.Windows.Forms.Label();
-            this.lblFPrice1 = new System.Windows.Forms.Label();
-            this.lblFPhone1 = new System.Windows.Forms.Label();
-            this.lblType1 = new System.Windows.Forms.Label();
-            this.lblRName2 = new System.Windows.Forms.Label();
-            this.lblRName3 = new System.Windows.Forms.Label();
-            this.lblRName4 = new System.Windows.Forms.Label();
-            this.lblType2 = new System.Windows.Forms.Label();
-            this.lblFPrice2 = new System.Windows.Forms.Label();
-            this.lblFPhone3 = new System.Windows.Forms.Label();
-            this.lblFPhonee3 = new System.Windows.Forms.Label();
-            this.lblFPrice3 = new System.Windows.Forms.Label();
-            this.lblFType3 = new System.Windows.Forms.Label();
-            this.lblFPhone4 = new System.Windows.Forms.Label();
-            this.lblFPrice4 = new System.Windows.Forms.Label();
-            this.lblFType4 = new System.Windows.Forms.Label();
+            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -136,6 +139,78 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(487, 220);
             this.panel5.TabIndex = 8;
+            // 
+            // lblFType4
+            // 
+            this.lblFType4.AutoSize = true;
+            this.lblFType4.Location = new System.Drawing.Point(293, 71);
+            this.lblFType4.Name = "lblFType4";
+            this.lblFType4.Size = new System.Drawing.Size(0, 16);
+            this.lblFType4.TabIndex = 15;
+            // 
+            // lblFPrice4
+            // 
+            this.lblFPrice4.AutoSize = true;
+            this.lblFPrice4.Location = new System.Drawing.Point(293, 102);
+            this.lblFPrice4.Name = "lblFPrice4";
+            this.lblFPrice4.Size = new System.Drawing.Size(0, 16);
+            this.lblFPrice4.TabIndex = 14;
+            // 
+            // lblFPhone4
+            // 
+            this.lblFPhone4.AutoSize = true;
+            this.lblFPhone4.Location = new System.Drawing.Point(293, 138);
+            this.lblFPhone4.Name = "lblFPhone4";
+            this.lblFPhone4.Size = new System.Drawing.Size(0, 16);
+            this.lblFPhone4.TabIndex = 13;
+            // 
+            // lblRName4
+            // 
+            this.lblRName4.AutoSize = true;
+            this.lblRName4.Location = new System.Drawing.Point(293, 38);
+            this.lblRName4.Name = "lblRName4";
+            this.lblRName4.Size = new System.Drawing.Size(0, 16);
+            this.lblRName4.TabIndex = 12;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(61, 132);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(131, 24);
+            this.label13.TabIndex = 10;
+            this.label13.Text = "Contact Info";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(61, 98);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(59, 24);
+            this.label14.TabIndex = 11;
+            this.label14.Text = "Price";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(61, 63);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(112, 24);
+            this.label15.TabIndex = 8;
+            this.label15.Text = "Food Type";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(61, 30);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(180, 24);
+            this.label16.TabIndex = 9;
+            this.label16.Text = "Restaurant Name";
             // 
             // btnOrderMe4
             // 
@@ -212,6 +287,78 @@
             this.panel4.Size = new System.Drawing.Size(487, 220);
             this.panel4.TabIndex = 7;
             // 
+            // lblFType3
+            // 
+            this.lblFType3.AutoSize = true;
+            this.lblFType3.Location = new System.Drawing.Point(293, 71);
+            this.lblFType3.Name = "lblFType3";
+            this.lblFType3.Size = new System.Drawing.Size(0, 16);
+            this.lblFType3.TabIndex = 15;
+            // 
+            // lblFPrice3
+            // 
+            this.lblFPrice3.AutoSize = true;
+            this.lblFPrice3.Location = new System.Drawing.Point(293, 104);
+            this.lblFPrice3.Name = "lblFPrice3";
+            this.lblFPrice3.Size = new System.Drawing.Size(0, 16);
+            this.lblFPrice3.TabIndex = 14;
+            // 
+            // lblFPhonee3
+            // 
+            this.lblFPhonee3.AutoSize = true;
+            this.lblFPhonee3.Location = new System.Drawing.Point(293, 138);
+            this.lblFPhonee3.Name = "lblFPhonee3";
+            this.lblFPhonee3.Size = new System.Drawing.Size(0, 16);
+            this.lblFPhonee3.TabIndex = 13;
+            // 
+            // lblRName3
+            // 
+            this.lblRName3.AutoSize = true;
+            this.lblRName3.Location = new System.Drawing.Point(293, 36);
+            this.lblRName3.Name = "lblRName3";
+            this.lblRName3.Size = new System.Drawing.Size(0, 16);
+            this.lblRName3.TabIndex = 12;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(61, 132);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(131, 24);
+            this.label9.TabIndex = 10;
+            this.label9.Text = "Contact Info";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(61, 98);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(59, 24);
+            this.label10.TabIndex = 11;
+            this.label10.Text = "Price";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(61, 63);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(112, 24);
+            this.label11.TabIndex = 8;
+            this.label11.Text = "Food Type";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(61, 30);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(180, 24);
+            this.label12.TabIndex = 9;
+            this.label12.Text = "Restaurant Name";
+            // 
             // btnOrderMe3
             // 
             this.btnOrderMe3.AutoRoundedCorners = true;
@@ -287,6 +434,78 @@
             this.panel3.Size = new System.Drawing.Size(487, 220);
             this.panel3.TabIndex = 6;
             // 
+            // lblFPhone3
+            // 
+            this.lblFPhone3.AutoSize = true;
+            this.lblFPhone3.Location = new System.Drawing.Point(251, 138);
+            this.lblFPhone3.Name = "lblFPhone3";
+            this.lblFPhone3.Size = new System.Drawing.Size(0, 16);
+            this.lblFPhone3.TabIndex = 14;
+            // 
+            // lblFPrice2
+            // 
+            this.lblFPrice2.AutoSize = true;
+            this.lblFPrice2.Location = new System.Drawing.Point(251, 104);
+            this.lblFPrice2.Name = "lblFPrice2";
+            this.lblFPrice2.Size = new System.Drawing.Size(0, 16);
+            this.lblFPrice2.TabIndex = 13;
+            // 
+            // lblType2
+            // 
+            this.lblType2.AutoSize = true;
+            this.lblType2.Location = new System.Drawing.Point(251, 69);
+            this.lblType2.Name = "lblType2";
+            this.lblType2.Size = new System.Drawing.Size(0, 16);
+            this.lblType2.TabIndex = 12;
+            // 
+            // lblRName2
+            // 
+            this.lblRName2.AutoSize = true;
+            this.lblRName2.Location = new System.Drawing.Point(251, 38);
+            this.lblRName2.Name = "lblRName2";
+            this.lblRName2.Size = new System.Drawing.Size(0, 16);
+            this.lblRName2.TabIndex = 12;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(41, 132);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(131, 24);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "Contact Info";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(41, 98);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(59, 24);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "Price";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(41, 63);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(112, 24);
+            this.label7.TabIndex = 8;
+            this.label7.Text = "Food Type";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(41, 30);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(180, 24);
+            this.label8.TabIndex = 9;
+            this.label8.Text = "Restaurant Name";
+            // 
             // btnOrderMe2
             // 
             this.btnOrderMe2.AutoRoundedCorners = true;
@@ -361,6 +580,38 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(487, 220);
             this.panel2.TabIndex = 5;
+            // 
+            // lblType1
+            // 
+            this.lblType1.AutoSize = true;
+            this.lblType1.Location = new System.Drawing.Point(251, 60);
+            this.lblType1.Name = "lblType1";
+            this.lblType1.Size = new System.Drawing.Size(0, 16);
+            this.lblType1.TabIndex = 11;
+            // 
+            // lblFPhone1
+            // 
+            this.lblFPhone1.AutoSize = true;
+            this.lblFPhone1.Location = new System.Drawing.Point(251, 129);
+            this.lblFPhone1.Name = "lblFPhone1";
+            this.lblFPhone1.Size = new System.Drawing.Size(0, 16);
+            this.lblFPhone1.TabIndex = 10;
+            // 
+            // lblFPrice1
+            // 
+            this.lblFPrice1.AutoSize = true;
+            this.lblFPrice1.Location = new System.Drawing.Point(251, 95);
+            this.lblFPrice1.Name = "lblFPrice1";
+            this.lblFPrice1.Size = new System.Drawing.Size(0, 16);
+            this.lblFPrice1.TabIndex = 9;
+            // 
+            // lblRName1
+            // 
+            this.lblRName1.AutoSize = true;
+            this.lblRName1.Location = new System.Drawing.Point(251, 28);
+            this.lblRName1.Name = "lblRName1";
+            this.lblRName1.Size = new System.Drawing.Size(0, 16);
+            this.lblRName1.TabIndex = 8;
             // 
             // btnOrderMe
             // 
@@ -477,6 +728,21 @@
             this.guna2Button3.UseTransparentBackground = true;
             this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
             // 
+            // guna2PictureBox2
+            // 
+            this.guna2PictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox2.FillColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox2.Image = global::Ceylon.Properties.Resources.Food1;
+            this.guna2PictureBox2.ImageRotate = 0F;
+            this.guna2PictureBox2.Location = new System.Drawing.Point(4, 4);
+            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2PictureBox2.Name = "guna2PictureBox2";
+            this.guna2PictureBox2.Size = new System.Drawing.Size(168, 81);
+            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox2.TabIndex = 2;
+            this.guna2PictureBox2.TabStop = false;
+            this.guna2PictureBox2.UseTransparentBackground = true;
+            // 
             // guna2CircleButton3
             // 
             this.guna2CircleButton3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -487,7 +753,7 @@
             this.guna2CircleButton3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2CircleButton3.ForeColor = System.Drawing.Color.White;
             this.guna2CircleButton3.ImageSize = new System.Drawing.Size(12, 12);
-            this.guna2CircleButton3.Location = new System.Drawing.Point(1049, 13);
+            this.guna2CircleButton3.Location = new System.Drawing.Point(1049, 20);
             this.guna2CircleButton3.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CircleButton3.Name = "guna2CircleButton3";
             this.guna2CircleButton3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
@@ -505,7 +771,7 @@
             this.guna2CircleButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2CircleButton2.ForeColor = System.Drawing.Color.White;
             this.guna2CircleButton2.ImageSize = new System.Drawing.Size(12, 12);
-            this.guna2CircleButton2.Location = new System.Drawing.Point(1084, 13);
+            this.guna2CircleButton2.Location = new System.Drawing.Point(1084, 20);
             this.guna2CircleButton2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CircleButton2.Name = "guna2CircleButton2";
             this.guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
@@ -523,7 +789,7 @@
             this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2CircleButton1.ForeColor = System.Drawing.Color.White;
             this.guna2CircleButton1.ImageSize = new System.Drawing.Size(12, 12);
-            this.guna2CircleButton1.Location = new System.Drawing.Point(1119, 13);
+            this.guna2CircleButton1.Location = new System.Drawing.Point(1119, 20);
             this.guna2CircleButton1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CircleButton1.Name = "guna2CircleButton1";
             this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
@@ -538,7 +804,7 @@
             this.guna2PictureBox4.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox4.Image = global::Ceylon.Properties.Resources.ceylon;
             this.guna2PictureBox4.ImageRotate = 0F;
-            this.guna2PictureBox4.Location = new System.Drawing.Point(457, 13);
+            this.guna2PictureBox4.Location = new System.Drawing.Point(493, 22);
             this.guna2PictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.guna2PictureBox4.Name = "guna2PictureBox4";
             this.guna2PictureBox4.Size = new System.Drawing.Size(208, 25);
@@ -547,268 +813,15 @@
             this.guna2PictureBox4.TabStop = false;
             this.guna2PictureBox4.UseTransparentBackground = true;
             // 
-            // guna2PictureBox2
+            // guna2Elipse1
             // 
-            this.guna2PictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox2.FillColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox2.Image = global::Ceylon.Properties.Resources.Food1;
-            this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(4, 4);
-            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(168, 81);
-            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox2.TabIndex = 2;
-            this.guna2PictureBox2.TabStop = false;
-            this.guna2PictureBox2.UseTransparentBackground = true;
+            this.guna2Elipse1.BorderRadius = 20;
+            this.guna2Elipse1.TargetControl = this;
             // 
-            // label5
+            // guna2DragControl1
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(41, 132);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(131, 24);
-            this.label5.TabIndex = 10;
-            this.label5.Text = "Contact Info";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(41, 98);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(59, 24);
-            this.label6.TabIndex = 11;
-            this.label6.Text = "Price";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(41, 63);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(112, 24);
-            this.label7.TabIndex = 8;
-            this.label7.Text = "Food Type";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(41, 30);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(180, 24);
-            this.label8.TabIndex = 9;
-            this.label8.Text = "Restaurant Name";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(61, 132);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(131, 24);
-            this.label9.TabIndex = 10;
-            this.label9.Text = "Contact Info";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(61, 98);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(59, 24);
-            this.label10.TabIndex = 11;
-            this.label10.Text = "Price";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(61, 63);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(112, 24);
-            this.label11.TabIndex = 8;
-            this.label11.Text = "Food Type";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(61, 30);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(180, 24);
-            this.label12.TabIndex = 9;
-            this.label12.Text = "Restaurant Name";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(61, 132);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(131, 24);
-            this.label13.TabIndex = 10;
-            this.label13.Text = "Contact Info";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(61, 98);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(59, 24);
-            this.label14.TabIndex = 11;
-            this.label14.Text = "Price";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(61, 63);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(112, 24);
-            this.label15.TabIndex = 8;
-            this.label15.Text = "Food Type";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(61, 30);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(180, 24);
-            this.label16.TabIndex = 9;
-            this.label16.Text = "Restaurant Name";
-            // 
-            // lblRName1
-            // 
-            this.lblRName1.AutoSize = true;
-            this.lblRName1.Location = new System.Drawing.Point(251, 28);
-            this.lblRName1.Name = "lblRName1";
-            this.lblRName1.Size = new System.Drawing.Size(0, 16);
-            this.lblRName1.TabIndex = 8;
-            // 
-            // lblFPrice1
-            // 
-            this.lblFPrice1.AutoSize = true;
-            this.lblFPrice1.Location = new System.Drawing.Point(251, 95);
-            this.lblFPrice1.Name = "lblFPrice1";
-            this.lblFPrice1.Size = new System.Drawing.Size(0, 16);
-            this.lblFPrice1.TabIndex = 9;
-            // 
-            // lblFPhone1
-            // 
-            this.lblFPhone1.AutoSize = true;
-            this.lblFPhone1.Location = new System.Drawing.Point(251, 129);
-            this.lblFPhone1.Name = "lblFPhone1";
-            this.lblFPhone1.Size = new System.Drawing.Size(0, 16);
-            this.lblFPhone1.TabIndex = 10;
-            // 
-            // lblType1
-            // 
-            this.lblType1.AutoSize = true;
-            this.lblType1.Location = new System.Drawing.Point(251, 60);
-            this.lblType1.Name = "lblType1";
-            this.lblType1.Size = new System.Drawing.Size(0, 16);
-            this.lblType1.TabIndex = 11;
-            // 
-            // lblRName2
-            // 
-            this.lblRName2.AutoSize = true;
-            this.lblRName2.Location = new System.Drawing.Point(251, 38);
-            this.lblRName2.Name = "lblRName2";
-            this.lblRName2.Size = new System.Drawing.Size(0, 16);
-            this.lblRName2.TabIndex = 12;
-            // 
-            // lblRName3
-            // 
-            this.lblRName3.AutoSize = true;
-            this.lblRName3.Location = new System.Drawing.Point(293, 36);
-            this.lblRName3.Name = "lblRName3";
-            this.lblRName3.Size = new System.Drawing.Size(0, 16);
-            this.lblRName3.TabIndex = 12;
-            // 
-            // lblRName4
-            // 
-            this.lblRName4.AutoSize = true;
-            this.lblRName4.Location = new System.Drawing.Point(293, 38);
-            this.lblRName4.Name = "lblRName4";
-            this.lblRName4.Size = new System.Drawing.Size(0, 16);
-            this.lblRName4.TabIndex = 12;
-            // 
-            // lblType2
-            // 
-            this.lblType2.AutoSize = true;
-            this.lblType2.Location = new System.Drawing.Point(251, 69);
-            this.lblType2.Name = "lblType2";
-            this.lblType2.Size = new System.Drawing.Size(0, 16);
-            this.lblType2.TabIndex = 12;
-            // 
-            // lblFPrice2
-            // 
-            this.lblFPrice2.AutoSize = true;
-            this.lblFPrice2.Location = new System.Drawing.Point(251, 104);
-            this.lblFPrice2.Name = "lblFPrice2";
-            this.lblFPrice2.Size = new System.Drawing.Size(0, 16);
-            this.lblFPrice2.TabIndex = 13;
-            // 
-            // lblFPhone3
-            // 
-            this.lblFPhone3.AutoSize = true;
-            this.lblFPhone3.Location = new System.Drawing.Point(251, 138);
-            this.lblFPhone3.Name = "lblFPhone3";
-            this.lblFPhone3.Size = new System.Drawing.Size(0, 16);
-            this.lblFPhone3.TabIndex = 14;
-            // 
-            // lblFPhonee3
-            // 
-            this.lblFPhonee3.AutoSize = true;
-            this.lblFPhonee3.Location = new System.Drawing.Point(293, 138);
-            this.lblFPhonee3.Name = "lblFPhonee3";
-            this.lblFPhonee3.Size = new System.Drawing.Size(0, 16);
-            this.lblFPhonee3.TabIndex = 13;
-            // 
-            // lblFPrice3
-            // 
-            this.lblFPrice3.AutoSize = true;
-            this.lblFPrice3.Location = new System.Drawing.Point(293, 104);
-            this.lblFPrice3.Name = "lblFPrice3";
-            this.lblFPrice3.Size = new System.Drawing.Size(0, 16);
-            this.lblFPrice3.TabIndex = 14;
-            // 
-            // lblFType3
-            // 
-            this.lblFType3.AutoSize = true;
-            this.lblFType3.Location = new System.Drawing.Point(293, 71);
-            this.lblFType3.Name = "lblFType3";
-            this.lblFType3.Size = new System.Drawing.Size(0, 16);
-            this.lblFType3.TabIndex = 15;
-            // 
-            // lblFPhone4
-            // 
-            this.lblFPhone4.AutoSize = true;
-            this.lblFPhone4.Location = new System.Drawing.Point(293, 138);
-            this.lblFPhone4.Name = "lblFPhone4";
-            this.lblFPhone4.Size = new System.Drawing.Size(0, 16);
-            this.lblFPhone4.TabIndex = 13;
-            // 
-            // lblFPrice4
-            // 
-            this.lblFPrice4.AutoSize = true;
-            this.lblFPrice4.Location = new System.Drawing.Point(293, 102);
-            this.lblFPrice4.Name = "lblFPrice4";
-            this.lblFPrice4.Size = new System.Drawing.Size(0, 16);
-            this.lblFPrice4.TabIndex = 14;
-            // 
-            // lblFType4
-            // 
-            this.lblFType4.AutoSize = true;
-            this.lblFType4.Location = new System.Drawing.Point(293, 71);
-            this.lblFType4.Name = "lblFType4";
-            this.lblFType4.Size = new System.Drawing.Size(0, 16);
-            this.lblFType4.TabIndex = 15;
+            this.guna2DragControl1.DockIndicatorTransparencyValue = 0.6D;
+            this.guna2DragControl1.UseTransparentDrag = true;
             // 
             // FoodDisplay
             // 
@@ -823,6 +836,7 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FoodDisplay";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FoodDisplay";
             this.Load += new System.EventHandler(this.FoodDisplay_Load);
             this.panel1.ResumeLayout(false);
@@ -834,8 +848,8 @@
             this.panel3.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -905,5 +919,7 @@
         private System.Windows.Forms.Label lblFPhone1;
         private System.Windows.Forms.Label lblFPrice1;
         private System.Windows.Forms.Label lblRName1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
+        private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
     }
 }

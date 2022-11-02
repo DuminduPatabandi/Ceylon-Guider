@@ -19,13 +19,13 @@ namespace Ceylon
 
         private void guna2CircleButton1_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
-            RoomPage roomPage = new RoomPage();
-            roomPage.Show();
+            
+            new Rooms().Show();
             this.Close();
         }
     }

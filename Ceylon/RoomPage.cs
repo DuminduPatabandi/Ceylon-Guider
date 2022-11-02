@@ -30,11 +30,12 @@ namespace Ceylon
 
         private void guna2Button9_Click(object sender, EventArgs e)
         {
-            //RoomDisplay roomDisplay = new RoomDisplay();
-            Application.Exit();
+            //Application.Exit();
+            
 
+            RoomDisplay roomDisplay = new RoomDisplay();
             new RoomDisplay().Show();
-            //this.Hide();
+            this.Hide();
         }
     }
 }

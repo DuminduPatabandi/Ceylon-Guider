@@ -24,8 +24,7 @@ namespace Ceylon
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
-            DestinationPage destinationPage = new DestinationPage();
-            destinationPage.Show();
+            new Rooms().Show();
             this.Close();
         }
 
@@ -36,7 +35,7 @@ namespace Ceylon
 
         private void guna2CircleButton1_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
     }
 }

@@ -42,14 +42,14 @@
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.txtMail = new System.Windows.Forms.Label();
+            this.txtUserName = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CircleButton3 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2CircleButton2 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.txtUserName = new System.Windows.Forms.Label();
-            this.txtMail = new System.Windows.Forms.Label();
             this.loadpane.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.controllerPane.SuspendLayout();
@@ -186,7 +186,6 @@
             this.guna2Button5.TabIndex = 5;
             this.guna2Button5.Text = "Delete Account";
             this.guna2Button5.UseTransparentBackground = true;
-            this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
             // 
             // guna2Button9
             // 
@@ -284,6 +283,28 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(453, 654);
             this.panel2.TabIndex = 9;
+            // 
+            // txtMail
+            // 
+            this.txtMail.Font = new System.Drawing.Font("ChronicaPro-Light", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(108)))), ((int)(((byte)(116)))));
+            this.txtMail.Location = new System.Drawing.Point(115, 314);
+            this.txtMail.Name = "txtMail";
+            this.txtMail.Size = new System.Drawing.Size(212, 20);
+            this.txtMail.TabIndex = 7;
+            this.txtMail.Text = "dppatabandi@gmail.com";
+            this.txtMail.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // txtUserName
+            // 
+            this.txtUserName.Font = new System.Drawing.Font("ChronicaPro-Black", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUserName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(108)))), ((int)(((byte)(116)))));
+            this.txtUserName.Location = new System.Drawing.Point(103, 285);
+            this.txtUserName.Name = "txtUserName";
+            this.txtUserName.Size = new System.Drawing.Size(239, 29);
+            this.txtUserName.TabIndex = 7;
+            this.txtUserName.Text = "Dumindu Patabandi";
+            this.txtUserName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel4
             // 
@@ -385,28 +406,6 @@
             this.guna2PictureBox4.TabStop = false;
             this.guna2PictureBox4.UseTransparentBackground = true;
             // 
-            // txtUserName
-            // 
-            this.txtUserName.AutoSize = true;
-            this.txtUserName.Font = new System.Drawing.Font("ChronicaPro-Black", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUserName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(108)))), ((int)(((byte)(116)))));
-            this.txtUserName.Location = new System.Drawing.Point(103, 285);
-            this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(239, 29);
-            this.txtUserName.TabIndex = 7;
-            this.txtUserName.Text = "Dumindu Patabandi";
-            // 
-            // txtMail
-            // 
-            this.txtMail.AutoSize = true;
-            this.txtMail.Font = new System.Drawing.Font("ChronicaPro-Light", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(108)))), ((int)(((byte)(116)))));
-            this.txtMail.Location = new System.Drawing.Point(115, 314);
-            this.txtMail.Name = "txtMail";
-            this.txtMail.Size = new System.Drawing.Size(212, 20);
-            this.txtMail.TabIndex = 7;
-            this.txtMail.Text = "dppatabandi@gmail.com";
-            // 
             // ProfilePage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -424,11 +423,11 @@
             this.Name = "ProfilePage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ProfilePage";
+            this.Load += new System.EventHandler(this.ProfilePage_Load);
             this.loadpane.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.controllerPane.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
             this.ResumeLayout(false);
 

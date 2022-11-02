@@ -28,11 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.guna2CircleButton3 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2CircleButton2 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.lblDistrict = new System.Windows.Forms.Label();
+            this.lblDName = new System.Windows.Forms.Label();
+            this.btnVisit4 = new Guna.UI2.WinForms.Guna2Button();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
             this.lblFType4 = new System.Windows.Forms.Label();
             this.lblFPrice4 = new System.Windows.Forms.Label();
             this.lblFPhone4 = new System.Windows.Forms.Label();
@@ -42,6 +48,11 @@
             this.lblPhone4 = new System.Windows.Forms.Label();
             this.lblHotel4 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.lblDistrict3 = new System.Windows.Forms.Label();
+            this.lblDName3 = new System.Windows.Forms.Label();
+            this.btnVisit3 = new Guna.UI2.WinForms.Guna2Button();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
             this.lblFType3 = new System.Windows.Forms.Label();
             this.lblFPrice3 = new System.Windows.Forms.Label();
             this.lblFPhonee3 = new System.Windows.Forms.Label();
@@ -51,6 +62,11 @@
             this.lblPhone3 = new System.Windows.Forms.Label();
             this.lblHotel3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.lblDistrict2 = new System.Windows.Forms.Label();
+            this.lblDName2 = new System.Windows.Forms.Label();
+            this.btnVisit2 = new Guna.UI2.WinForms.Guna2Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.lblFPhone3 = new System.Windows.Forms.Label();
             this.lblFPrice2 = new System.Windows.Forms.Label();
             this.lblType2 = new System.Windows.Forms.Label();
@@ -60,6 +76,8 @@
             this.lblPhone2 = new System.Windows.Forms.Label();
             this.lblHotel2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.lblDistrict1 = new System.Windows.Forms.Label();
+            this.lblDName1 = new System.Windows.Forms.Label();
             this.lblType1 = new System.Windows.Forms.Label();
             this.lblFPhone1 = new System.Windows.Forms.Label();
             this.lblFPrice1 = new System.Windows.Forms.Label();
@@ -74,23 +92,8 @@
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.lblDName1 = new System.Windows.Forms.Label();
-            this.lblDistrict1 = new System.Windows.Forms.Label();
-            this.lblDistrict2 = new System.Windows.Forms.Label();
-            this.lblDName2 = new System.Windows.Forms.Label();
-            this.btnVisit2 = new Guna.UI2.WinForms.Guna2Button();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.lblDistrict3 = new System.Windows.Forms.Label();
-            this.lblDName3 = new System.Windows.Forms.Label();
-            this.btnVisit3 = new Guna.UI2.WinForms.Guna2Button();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.lblDistrict = new System.Windows.Forms.Label();
-            this.lblDName = new System.Windows.Forms.Label();
-            this.btnVisit4 = new Guna.UI2.WinForms.Guna2Button();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
+            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -110,7 +113,7 @@
             this.guna2CircleButton3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2CircleButton3.ForeColor = System.Drawing.Color.White;
             this.guna2CircleButton3.ImageSize = new System.Drawing.Size(12, 12);
-            this.guna2CircleButton3.Location = new System.Drawing.Point(1032, 13);
+            this.guna2CircleButton3.Location = new System.Drawing.Point(1032, 15);
             this.guna2CircleButton3.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CircleButton3.Name = "guna2CircleButton3";
             this.guna2CircleButton3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
@@ -128,7 +131,7 @@
             this.guna2CircleButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2CircleButton2.ForeColor = System.Drawing.Color.White;
             this.guna2CircleButton2.ImageSize = new System.Drawing.Size(12, 12);
-            this.guna2CircleButton2.Location = new System.Drawing.Point(1067, 13);
+            this.guna2CircleButton2.Location = new System.Drawing.Point(1067, 15);
             this.guna2CircleButton2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CircleButton2.Name = "guna2CircleButton2";
             this.guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
@@ -146,7 +149,7 @@
             this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2CircleButton1.ForeColor = System.Drawing.Color.White;
             this.guna2CircleButton1.ImageSize = new System.Drawing.Size(12, 12);
-            this.guna2CircleButton1.Location = new System.Drawing.Point(1102, 13);
+            this.guna2CircleButton1.Location = new System.Drawing.Point(1102, 15);
             this.guna2CircleButton1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CircleButton1.Name = "guna2CircleButton1";
             this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
@@ -192,6 +195,59 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(487, 220);
             this.panel5.TabIndex = 8;
+            // 
+            // lblDistrict
+            // 
+            this.lblDistrict.AutoSize = true;
+            this.lblDistrict.Location = new System.Drawing.Point(277, 101);
+            this.lblDistrict.Name = "lblDistrict";
+            this.lblDistrict.Size = new System.Drawing.Size(0, 16);
+            this.lblDistrict.TabIndex = 20;
+            // 
+            // lblDName
+            // 
+            this.lblDName.AutoSize = true;
+            this.lblDName.Location = new System.Drawing.Point(277, 43);
+            this.lblDName.Name = "lblDName";
+            this.lblDName.Size = new System.Drawing.Size(0, 16);
+            this.lblDName.TabIndex = 19;
+            // 
+            // btnVisit4
+            // 
+            this.btnVisit4.AutoRoundedCorners = true;
+            this.btnVisit4.BorderRadius = 21;
+            this.btnVisit4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnVisit4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnVisit4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnVisit4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnVisit4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(149)))), ((int)(((byte)(1)))));
+            this.btnVisit4.Font = new System.Drawing.Font("Covered By Your Grace", 12F, System.Drawing.FontStyle.Italic);
+            this.btnVisit4.ForeColor = System.Drawing.Color.White;
+            this.btnVisit4.Location = new System.Drawing.Point(258, 139);
+            this.btnVisit4.Name = "btnVisit4";
+            this.btnVisit4.Size = new System.Drawing.Size(180, 45);
+            this.btnVisit4.TabIndex = 18;
+            this.btnVisit4.Text = "Visit Page";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(48, 95);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(80, 24);
+            this.label15.TabIndex = 16;
+            this.label15.Text = "District";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(48, 36);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(185, 24);
+            this.label16.TabIndex = 17;
+            this.label16.Text = "Destination Name";
             // 
             // lblFType4
             // 
@@ -282,6 +338,59 @@
             this.panel4.Size = new System.Drawing.Size(487, 220);
             this.panel4.TabIndex = 7;
             // 
+            // lblDistrict3
+            // 
+            this.lblDistrict3.AutoSize = true;
+            this.lblDistrict3.Location = new System.Drawing.Point(277, 101);
+            this.lblDistrict3.Name = "lblDistrict3";
+            this.lblDistrict3.Size = new System.Drawing.Size(0, 16);
+            this.lblDistrict3.TabIndex = 20;
+            // 
+            // lblDName3
+            // 
+            this.lblDName3.AutoSize = true;
+            this.lblDName3.Location = new System.Drawing.Point(277, 43);
+            this.lblDName3.Name = "lblDName3";
+            this.lblDName3.Size = new System.Drawing.Size(0, 16);
+            this.lblDName3.TabIndex = 19;
+            // 
+            // btnVisit3
+            // 
+            this.btnVisit3.AutoRoundedCorners = true;
+            this.btnVisit3.BorderRadius = 21;
+            this.btnVisit3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnVisit3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnVisit3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnVisit3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnVisit3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(149)))), ((int)(((byte)(1)))));
+            this.btnVisit3.Font = new System.Drawing.Font("Covered By Your Grace", 12F, System.Drawing.FontStyle.Italic);
+            this.btnVisit3.ForeColor = System.Drawing.Color.White;
+            this.btnVisit3.Location = new System.Drawing.Point(258, 139);
+            this.btnVisit3.Name = "btnVisit3";
+            this.btnVisit3.Size = new System.Drawing.Size(180, 45);
+            this.btnVisit3.TabIndex = 18;
+            this.btnVisit3.Text = "Visit Page";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(48, 95);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(80, 24);
+            this.label11.TabIndex = 16;
+            this.label11.Text = "District";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(48, 36);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(185, 24);
+            this.label12.TabIndex = 17;
+            this.label12.Text = "Destination Name";
+            // 
             // lblFType3
             // 
             this.lblFType3.AutoSize = true;
@@ -371,6 +480,59 @@
             this.panel3.Size = new System.Drawing.Size(487, 220);
             this.panel3.TabIndex = 6;
             // 
+            // lblDistrict2
+            // 
+            this.lblDistrict2.AutoSize = true;
+            this.lblDistrict2.Location = new System.Drawing.Point(277, 101);
+            this.lblDistrict2.Name = "lblDistrict2";
+            this.lblDistrict2.Size = new System.Drawing.Size(0, 16);
+            this.lblDistrict2.TabIndex = 19;
+            // 
+            // lblDName2
+            // 
+            this.lblDName2.AutoSize = true;
+            this.lblDName2.Location = new System.Drawing.Point(277, 43);
+            this.lblDName2.Name = "lblDName2";
+            this.lblDName2.Size = new System.Drawing.Size(0, 16);
+            this.lblDName2.TabIndex = 18;
+            // 
+            // btnVisit2
+            // 
+            this.btnVisit2.AutoRoundedCorners = true;
+            this.btnVisit2.BorderRadius = 21;
+            this.btnVisit2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnVisit2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnVisit2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnVisit2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnVisit2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(149)))), ((int)(((byte)(1)))));
+            this.btnVisit2.Font = new System.Drawing.Font("Covered By Your Grace", 12F, System.Drawing.FontStyle.Italic);
+            this.btnVisit2.ForeColor = System.Drawing.Color.White;
+            this.btnVisit2.Location = new System.Drawing.Point(258, 139);
+            this.btnVisit2.Name = "btnVisit2";
+            this.btnVisit2.Size = new System.Drawing.Size(180, 45);
+            this.btnVisit2.TabIndex = 17;
+            this.btnVisit2.Text = "Visit Page";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(48, 95);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(80, 24);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "District";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(48, 36);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(185, 24);
+            this.label8.TabIndex = 16;
+            this.label8.Text = "Destination Name";
+            // 
             // lblFPhone3
             // 
             this.lblFPhone3.AutoSize = true;
@@ -459,6 +621,22 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(487, 220);
             this.panel2.TabIndex = 5;
+            // 
+            // lblDistrict1
+            // 
+            this.lblDistrict1.AutoSize = true;
+            this.lblDistrict1.Location = new System.Drawing.Point(270, 110);
+            this.lblDistrict1.Name = "lblDistrict1";
+            this.lblDistrict1.Size = new System.Drawing.Size(0, 16);
+            this.lblDistrict1.TabIndex = 13;
+            // 
+            // lblDName1
+            // 
+            this.lblDName1.AutoSize = true;
+            this.lblDName1.Location = new System.Drawing.Point(270, 52);
+            this.lblDName1.Name = "lblDName1";
+            this.lblDName1.Size = new System.Drawing.Size(0, 16);
+            this.lblDName1.TabIndex = 12;
             // 
             // lblType1
             // 
@@ -608,7 +786,7 @@
             this.guna2PictureBox4.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox4.Image = global::Ceylon.Properties.Resources.ceylon;
             this.guna2PictureBox4.ImageRotate = 0F;
-            this.guna2PictureBox4.Location = new System.Drawing.Point(440, 13);
+            this.guna2PictureBox4.Location = new System.Drawing.Point(493, 15);
             this.guna2PictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.guna2PictureBox4.Name = "guna2PictureBox4";
             this.guna2PictureBox4.Size = new System.Drawing.Size(208, 25);
@@ -617,180 +795,15 @@
             this.guna2PictureBox4.TabStop = false;
             this.guna2PictureBox4.UseTransparentBackground = true;
             // 
-            // lblDName1
+            // guna2Elipse1
             // 
-            this.lblDName1.AutoSize = true;
-            this.lblDName1.Location = new System.Drawing.Point(270, 52);
-            this.lblDName1.Name = "lblDName1";
-            this.lblDName1.Size = new System.Drawing.Size(0, 16);
-            this.lblDName1.TabIndex = 12;
+            this.guna2Elipse1.BorderRadius = 20;
+            this.guna2Elipse1.TargetControl = this;
             // 
-            // lblDistrict1
+            // guna2DragControl1
             // 
-            this.lblDistrict1.AutoSize = true;
-            this.lblDistrict1.Location = new System.Drawing.Point(270, 110);
-            this.lblDistrict1.Name = "lblDistrict1";
-            this.lblDistrict1.Size = new System.Drawing.Size(0, 16);
-            this.lblDistrict1.TabIndex = 13;
-            // 
-            // lblDistrict2
-            // 
-            this.lblDistrict2.AutoSize = true;
-            this.lblDistrict2.Location = new System.Drawing.Point(277, 101);
-            this.lblDistrict2.Name = "lblDistrict2";
-            this.lblDistrict2.Size = new System.Drawing.Size(0, 16);
-            this.lblDistrict2.TabIndex = 19;
-            // 
-            // lblDName2
-            // 
-            this.lblDName2.AutoSize = true;
-            this.lblDName2.Location = new System.Drawing.Point(277, 43);
-            this.lblDName2.Name = "lblDName2";
-            this.lblDName2.Size = new System.Drawing.Size(0, 16);
-            this.lblDName2.TabIndex = 18;
-            // 
-            // btnVisit2
-            // 
-            this.btnVisit2.AutoRoundedCorners = true;
-            this.btnVisit2.BorderRadius = 21;
-            this.btnVisit2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnVisit2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnVisit2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnVisit2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnVisit2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(149)))), ((int)(((byte)(1)))));
-            this.btnVisit2.Font = new System.Drawing.Font("Covered By Your Grace", 12F, System.Drawing.FontStyle.Italic);
-            this.btnVisit2.ForeColor = System.Drawing.Color.White;
-            this.btnVisit2.Location = new System.Drawing.Point(258, 139);
-            this.btnVisit2.Name = "btnVisit2";
-            this.btnVisit2.Size = new System.Drawing.Size(180, 45);
-            this.btnVisit2.TabIndex = 17;
-            this.btnVisit2.Text = "Visit Page";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(48, 95);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(80, 24);
-            this.label7.TabIndex = 15;
-            this.label7.Text = "District";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(48, 36);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(185, 24);
-            this.label8.TabIndex = 16;
-            this.label8.Text = "Destination Name";
-            // 
-            // lblDistrict3
-            // 
-            this.lblDistrict3.AutoSize = true;
-            this.lblDistrict3.Location = new System.Drawing.Point(277, 101);
-            this.lblDistrict3.Name = "lblDistrict3";
-            this.lblDistrict3.Size = new System.Drawing.Size(0, 16);
-            this.lblDistrict3.TabIndex = 20;
-            // 
-            // lblDName3
-            // 
-            this.lblDName3.AutoSize = true;
-            this.lblDName3.Location = new System.Drawing.Point(277, 43);
-            this.lblDName3.Name = "lblDName3";
-            this.lblDName3.Size = new System.Drawing.Size(0, 16);
-            this.lblDName3.TabIndex = 19;
-            // 
-            // btnVisit3
-            // 
-            this.btnVisit3.AutoRoundedCorners = true;
-            this.btnVisit3.BorderRadius = 21;
-            this.btnVisit3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnVisit3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnVisit3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnVisit3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnVisit3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(149)))), ((int)(((byte)(1)))));
-            this.btnVisit3.Font = new System.Drawing.Font("Covered By Your Grace", 12F, System.Drawing.FontStyle.Italic);
-            this.btnVisit3.ForeColor = System.Drawing.Color.White;
-            this.btnVisit3.Location = new System.Drawing.Point(258, 139);
-            this.btnVisit3.Name = "btnVisit3";
-            this.btnVisit3.Size = new System.Drawing.Size(180, 45);
-            this.btnVisit3.TabIndex = 18;
-            this.btnVisit3.Text = "Visit Page";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(48, 95);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(80, 24);
-            this.label11.TabIndex = 16;
-            this.label11.Text = "District";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(48, 36);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(185, 24);
-            this.label12.TabIndex = 17;
-            this.label12.Text = "Destination Name";
-            // 
-            // lblDistrict
-            // 
-            this.lblDistrict.AutoSize = true;
-            this.lblDistrict.Location = new System.Drawing.Point(277, 101);
-            this.lblDistrict.Name = "lblDistrict";
-            this.lblDistrict.Size = new System.Drawing.Size(0, 16);
-            this.lblDistrict.TabIndex = 20;
-            // 
-            // lblDName
-            // 
-            this.lblDName.AutoSize = true;
-            this.lblDName.Location = new System.Drawing.Point(277, 43);
-            this.lblDName.Name = "lblDName";
-            this.lblDName.Size = new System.Drawing.Size(0, 16);
-            this.lblDName.TabIndex = 19;
-            // 
-            // btnVisit4
-            // 
-            this.btnVisit4.AutoRoundedCorners = true;
-            this.btnVisit4.BorderRadius = 21;
-            this.btnVisit4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnVisit4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnVisit4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnVisit4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnVisit4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(149)))), ((int)(((byte)(1)))));
-            this.btnVisit4.Font = new System.Drawing.Font("Covered By Your Grace", 12F, System.Drawing.FontStyle.Italic);
-            this.btnVisit4.ForeColor = System.Drawing.Color.White;
-            this.btnVisit4.Location = new System.Drawing.Point(258, 139);
-            this.btnVisit4.Name = "btnVisit4";
-            this.btnVisit4.Size = new System.Drawing.Size(180, 45);
-            this.btnVisit4.TabIndex = 18;
-            this.btnVisit4.Text = "Visit Page";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(48, 95);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(80, 24);
-            this.label15.TabIndex = 16;
-            this.label15.Text = "District";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("ChronicaPro-Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(48, 36);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(185, 24);
-            this.label16.TabIndex = 17;
-            this.label16.Text = "Destination Name";
+            this.guna2DragControl1.DockIndicatorTransparencyValue = 0.6D;
+            this.guna2DragControl1.UseTransparentDrag = true;
             // 
             // DestinationDisplay
             // 
@@ -886,5 +899,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label lblDistrict1;
         private System.Windows.Forms.Label lblDName1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
+        private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
     }
 }

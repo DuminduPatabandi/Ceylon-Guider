@@ -85,13 +85,18 @@ namespace Ceylon
 
         private void guna2CircleButton1_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void guna2Button3_Click_1(object sender, EventArgs e)
         {
             new Search().Show();
             this.Hide();
+        }
+
+        private void Rooms_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
