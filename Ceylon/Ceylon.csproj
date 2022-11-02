@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{43BB9A9A-3700-4B68-BDF0-58F206D0572B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Ceylon</RootNamespace>
+    <AssemblyName>Ceylon</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.3.5, Culture=neutral, PublicKeyToken=4015e4865bda28a4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.3.5\lib\net40\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdvisorPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdvisorPage.Designer.cs">
+      <DependentUpon>AdvisorPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBAccess.cs" />
+    <Compile Include="DestinationDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DestinationDisplay.Designer.cs">
+      <DependentUpon>DestinationDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DestinationPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DestinationPage.Designer.cs">
+      <DependentUpon>DestinationPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DestinationsEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DestinationsEdit.Designer.cs">
+      <DependentUpon>DestinationsEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FoodDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FoodDisplay.Designer.cs">
+      <DependentUpon>FoodDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FoodEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FoodEdit.Designer.cs">
+      <DependentUpon>FoodEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FoodPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FoodPage.Designer.cs">
+      <DependentUpon>FoodPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TransportDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransportDisplay.Designer.cs">
+      <DependentUpon>TransportDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TravelAdvisorDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TravelAdvisorDisplay.Designer.cs">
+      <DependentUpon>TravelAdvisorDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TravellerSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TravellerSearch.Designer.cs">
+      <DependentUpon>TravellerSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SPLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SPLogin.Designer.cs">
+      <DependentUpon>SPLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Services.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Services.Designer.cs">
+      <DependentUpon>Services.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MapPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MapPage.Designer.cs">
+      <DependentUpon>MapPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProfilePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProfilePage.Designer.cs">
+      <DependentUpon>ProfilePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register1.Designer.cs">
+      <DependentUpon>Register1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterMe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterMe.Designer.cs">
+      <DependentUpon>RegisterMe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RoomDispay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RoomDispay.Designer.cs">
+      <DependentUpon>RoomDispay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RoomEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RoomEdit.Designer.cs">
+      <DependentUpon>RoomEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RoomPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RoomPage.Designer.cs">
+      <DependentUpon>RoomPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrafficPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrafficPage.Designer.cs">
+      <DependentUpon>TrafficPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transport.Designer.cs">
+      <DependentUpon>Transport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TransportEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransportEdit.Designer.cs">
+      <DependentUpon>TransportEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TravelEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TravelEdit.Designer.cs">
+      <DependentUpon>TravelEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserLogName.cs" />
+    <EmbeddedResource Include="AdvisorPage.resx">
+      <DependentUpon>AdvisorPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DestinationDisplay.resx">
+      <DependentUpon>DestinationDisplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DestinationPage.resx">
+      <DependentUpon>DestinationPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DestinationsEdit.resx">
+      <DependentUpon>DestinationsEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FoodDisplay.resx">
+      <DependentUpon>FoodDisplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FoodEdit.resx">
+      <DependentUpon>FoodEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FoodPage.resx">
+      <DependentUpon>FoodPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransportDisplay.resx">
+      <DependentUpon>TransportDisplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TravelAdvisorDisplay.resx">
+      <DependentUpon>TravelAdvisorDisplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TravellerSearch.resx">
+      <DependentUpon>TravellerSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SPLogin.resx">
+      <DependentUpon>SPLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Services.resx">
+      <DependentUpon>Services.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MapPage.resx">
+      <DependentUpon>MapPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfilePage.resx">
+      <DependentUpon>ProfilePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Register1.resx">
+      <DependentUpon>Register1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegisterMe.resx">
+      <DependentUpon>RegisterMe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoomDispay.resx">
+      <DependentUpon>RoomDispay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoomEdit.resx">
+      <DependentUpon>RoomEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoomPage.resx">
+      <DependentUpon>RoomPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrafficPage.resx">
+      <DependentUpon>TrafficPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transport.resx">
+      <DependentUpon>Transport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransportEdit.resx">
+      <DependentUpon>TransportEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TravelEdit.resx">
+      <DependentUpon>TravelEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\road-trip-with-raj-0uI8LANIe0A-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ceylonwhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\who are you.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ceylon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\daniele-franchi-nhzzN8HIT0s-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\daniele-franchi-S9LN3vb47gw-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\register.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sigiriya.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rhema-kallianpur-uocSnWMhnAs-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rhema-kallianpur-uocSnWMhnAs-unsplash1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\services.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rooms.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rooms des.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tuk.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transport.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tuk1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tuk2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Food.png.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Food.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Travel advisor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mapss.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\traffic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\des.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\destinations.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\roomm.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\services1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Service Provider\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Food1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\destinations1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Travel advisor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transport1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
